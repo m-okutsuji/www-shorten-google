@@ -1,0 +1,12 @@
+www-shorten-google for ruby 1.8
+
+usage
+
+exe=GoogleURLShortener.new
+#shorten url
+p surl= exe.shorten_url("http://google.co.jp")
+#=>"http://goo.gl/kV47"
+
+#expand url
+p exe.expand_url("http://goo.gl/kV47")
+#=>"http://google.co.jp/"
